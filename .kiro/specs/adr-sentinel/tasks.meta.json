@@ -1,0 +1,141 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold the demo repository and ADR conventions": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477243
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996487479
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783997509072
+      }
+    ],
+    "2. Seed the two Accepted ADRs (dogfooding origin + PostgreSQL)": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477699
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783997513762
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783997662280
+      }
+    ],
+    "3. Write the behavioral scenario spec (DEMO.md)": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477768
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783997667718
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783997857317
+      }
+    ],
+    "4. Create the hook file and author the significance gate (silence-first)": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477815
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783997864914
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998138796
+      }
+    ],
+    "5. Add the Guard behavior (conflict detection against Accepted ADRs)": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477857
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998143547
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998377991
+      }
+    ],
+    "6. Add the Capture behavior (draft a Proposed MADR stub)": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477932
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998382895
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998621217
+      }
+    ],
+    "7. Add Covered + Soft nudge and wire full precedence and the error path": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996477968
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998626309
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998899983
+      }
+    ],
+    "8. Add steering and hook README, finalize DEMO.md, and end-to-end run-through": [
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783996478003
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783998905222
+      },
+      {
+        "executionId": "098292fd-4f19-41ba-a24f-8b0546d21611",
+        "chatSessionId": "sess_081058fd-0daa-435a-a1d7-a0c87f248899",
+        "timestamp": 1783999357710
+      }
+    ]
+  }
+}
