@@ -7,6 +7,24 @@ on:
     branches: [main]
 
 jobs:
+  adr-guard:
+    name: ADR Sentinel guard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Deterministic Tier 1 enforcement (see ADR-0002). No dependencies, no
+      # LLM: fails the build if a dependency manifest introduces a violation
+      # token named in an accepted ADR's Confirmation section.
+      - name: Run ADR guard
+        run: node scripts/adr-guard.js
+
   build:
     runs-on: ubuntu-latest
     steps:

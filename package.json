@@ -6,7 +6,9 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "adr:guard": "node scripts/adr-guard.js",
+    "hooks:install": "git config core.hooksPath .githooks"
   },
   "dependencies": {
     "express": "^4.19.2",

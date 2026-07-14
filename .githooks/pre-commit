@@ -1,0 +1,20 @@
+#!/bin/sh
+# ADR Sentinel deterministic guard (Tier 1) - local fast feedback.
+#
+# Blocks a commit that introduces a dependency-manifest conflict with an
+# accepted ADR, before the change ever leaves your machine. This mirrors the
+# CI check in .github/workflows/ci.yml (which is the non-bypassable backbone).
+# See ADR-0002.
+#
+# Opt in once per clone with:  npm run hooks:install
+# (that points core.hooksPath at this directory).
+
+node scripts/adr-guard.js
+status=$?
+if [ "$status" -ne 0 ]; then
+  echo "" >&2
+  echo "ADR Sentinel: commit blocked by an accepted-ADR conflict (see above)." >&2
+  echo "Resolve the conflict, or supersede the ADR with a new record, then commit again." >&2
+  exit 1
+fi
+exit 0
